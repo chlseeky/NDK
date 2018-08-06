@@ -12,4 +12,6 @@ public class NativeHelper {
      */
     public static native String stringFromJNI();
 
+    public static native int sumFromJNI(int a, int b);
+
 }
